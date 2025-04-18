@@ -1,1 +1,1 @@
-Places API integration demo 
+**Places API integration demo**
