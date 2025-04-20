@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "395652743986",
+    "project_id": "fir-db-8dbbf",
+    "storage_bucket": "fir-db-8dbbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395652743986:android:4ac8f5bf3e26f9e2748d2b",
+        "android_client_info": {
+          "package_name": "com.example.firebasedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395652743986:android:cec14fa22aa747f3748d2b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395652743986:android:2178fd3850bfdd7d748d2b",
+        "android_client_info": {
+          "package_name": "com.plcoding.composegooglesignincleanarchitecture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
