@@ -1,13 +1,20 @@
 # VaCraze
 Application where you smart plan your vacation
 
-In the backend put the Google Maps Api Key in the following files from in Andriod View (where it says MAPS_KEY_HERE or API_KEY_HERE):
 
-1. Gradle scripts -> local.properties (SDK Location):
-      MAPS_KEY=MAPS_KEY_HERE
+## 🔐 Google Maps API Key Setup (Android View)
 
-2. Gradle scripts -> build.gradle.kts (module script):
-      andriod{
+In the backend, put the **Google Maps API Key** in the following files (where it says `MAPS_KEY_HERE` or `API_KEY_HERE`):
+
+---
+
+### 1. `Gradle Scripts -> local.properties (SDK Location)`
+      ```properties
+MAPS_KEY=MAPS_KEY_HERE
+
+### 2. Gradle scripts -> build.gradle.kts (module script):
+      ```properties
+andriod{
         ...
         defaultConfig{
          ...
@@ -15,8 +22,9 @@ In the backend put the Google Maps Api Key in the following files from in Andrio
       }
    }
 
-3. app -> mainfest -> AndriodManifest.xml:
-    <manifest ....>
+### 3. app -> mainfest -> AndriodManifest.xml:
+      ```properties
+<manifest ....>
         ...
         <application ...
            <meta-data
