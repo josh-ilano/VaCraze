@@ -14,20 +14,20 @@
       },
       "oauth_client": [
         {
-          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_id": "CLIENT_ID.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+          "current_key": "API_KEY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_id": "CLIENT_ID.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -43,20 +43,20 @@
       },
       "oauth_client": [
         {
-          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_id": "CLIENT_ID.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+          "current_key": "API-KEY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_id": "CLIENT_ID.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -72,20 +72,20 @@
       },
       "oauth_client": [
         {
-          "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+          "client_id": "CLIENT_ID.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5-Nqdm8_CkvzrGEX_-4sLoPm_xH4PtwQ"
+          "current_key": "API_KEY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "395652743986-gcf4fvjtil2fd3g9cn4ouh2ashgoe8a6.apps.googleusercontent.com",
+              "client_id": "CLIENT_ID.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
