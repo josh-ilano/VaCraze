@@ -1,3 +1,4 @@
+// File: app/src/main/java/com/example/myapplication/Tools/Database.kt
 package com.example.myapplication.Tools
 
 import androidx.compose.foundation.layout.Arrangement
@@ -47,15 +48,15 @@ fun FirebaseInput() {
 
         Button(
             onClick = {
-                user?.let {
-                    val note = hashMapOf(
+                user?.let { u ->
+                    // Only string keys here:
+                    val note = hashMapOf<String, Any>(
                         "text" to noteText,
-                        "location" to
                         "timestamp" to FieldValue.serverTimestamp()
                     )
 
                     db.collection("users")
-                        .document(it.uid)
+                        .document(u.uid)
                         .collection("notes")
                         .add(note)
                         .addOnSuccessListener {
@@ -69,7 +70,8 @@ fun FirebaseInput() {
                     message = "User not signed in"
                 }
             },
-            modifier = Modifier.align(Alignment.End)
+            modifier = Modifier.align(Alignment.End),
+            enabled = noteText.isNotBlank()
         ) {
             Text("Save")
         }
