@@ -1,6 +1,9 @@
 # VaCraze
 Application where you smart plan your vacation
+---
+## The app is in FINAL_VERSION branch
 
+---
 ## Required Google APIs:
 
 In your Google Console please enable these apis:
@@ -18,8 +21,6 @@ In your Google Console please enable these apis:
 ## Google Maps API Key Setup (Android View)
 
 In the backend, put the **Google Maps API Key** in the following files (where it says `MAPS_KEY_HERE` or `API_KEY_HERE`):
-
----
 
 ### 1. `Gradle Scripts -> local.properties (SDK Location)`
       MAPS_KEY=MAPS_KEY_HERE
@@ -42,7 +43,7 @@ In the backend, put the **Google Maps API Key** in the following files (where it
             android:name="com.google.android.geo.API_KEY"
             android:value="API_KEY_HERE" />
 
-
+---
 
 ## Firebase Setup 
 IMPORTANT: I have shared the firebase storage with you. You will have to accept it, it should be in your emails.
@@ -54,8 +55,10 @@ IMPORTANT: Don't use the Authenticate using a custom authentication system (Java
 ![Screenshot 2025-05-10 001414](https://github.com/user-attachments/assets/de88b4db-d1b5-4645-9679-0451ed8e9d16)
 
 ### 3. Click on Connect, and connect it to the shared firebase storage. 
+
 ### 4. After Connected, click on Add the FirebaseAuthentication SDK to your app
 
+---
 ## FOR TABLETS or if you see a "Couldn't get current location" for NearbyPlaces page
 ### We learned while testing that Tablets on Android Studio don't come auto connected with a GPS location, so the app will run and so will the sepcific search, but you will be unable to use the area search or near by places features.
 In extended controls: location -> Set Location ->  Enable GPS Location (You might have to completely restart the emulator in one device it worked by just restarting the app, on another the whole emulator had to be restarted)
