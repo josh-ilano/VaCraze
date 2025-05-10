@@ -33,7 +33,7 @@ In the backend, put the **Google Maps API Key** in the following files (where it
           }
       }
       
-      ### IMPORTANT: please kee the "\"....\"" so an example is "\"AXHDSOESsf323432|""
+### IMPORTANT: please kee the "\"....\"" so an example is "\"AXHDSOESsf323432|""
  ### 3. app -> mainfest -> AndriodManifest.xml:
       <manifest ....>
         ...
