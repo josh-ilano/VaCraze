@@ -18,7 +18,7 @@ In your Google Console please enable these apis:
 ---
 
 ## Google Maps API Key Setup (Android View)
-IMPORTANT: please kee the "\"....\"" so an example is "\"AXHDSOESsf323432\""
+⚠️ **WARNING:** please kee the "\"....\"" so an example is "\"AXHDSOESsf323432\""
 In the backend, put the **Google Maps API Key** in the following files (where it says `MAPS_KEY_HERE` or `API_KEY_HERE`):
 
 
@@ -45,12 +45,12 @@ In the backend, put the **Google Maps API Key** in the following files (where it
 ---
 
 ## Firebase Setup 
-IMPORTANT: I have shared the firebase storage with you. You will have to accept it, it should be in your emails.
+⚠️ **WARNING:** I have shared the firebase storage with you. You will have to accept it, it should be in your emails.
 ### 1. In the Main Menue go to Tools -> FireBase
 ![Screenshot 2025-05-10 000946](https://github.com/user-attachments/assets/3e1bf8d6-11ab-4a3a-943f-4b6fc0c415a8)
 
 ### 2. In the FireBase dash board: Go to Authentication -> Authenticate using a custom authentication system 
-IMPORTANT: Don't use the Authenticate using a custom authentication system (Java) version
+⚠️ **WARNING:** Don't use the Authenticate using a custom authentication system (Java) version
 ![Screenshot 2025-05-10 001414](https://github.com/user-attachments/assets/de88b4db-d1b5-4645-9679-0451ed8e9d16)
 
 ### 3. Click on Connect, and connect it to the shared firebase storage. 
@@ -59,7 +59,7 @@ IMPORTANT: Don't use the Authenticate using a custom authentication system (Java
 
 ---
 ## FOR TABLETS or if you see a "Couldn't get current location" for NearbyPlaces page
-### We learned while testing that Tablets on Android Studio don't come auto connected with a GPS location, so the app will run and so will the sepcific search, but you will be unable to use the area search or near by places features.
+⚠️ **WARNING:** We learned while testing that Tablets on Android Studio don't come auto connected with a GPS location, so the app will run and so will the sepcific search, but you will be unable to use the area search or near by places features.
 In extended controls: location -> Set Location ->  Enable GPS Location (You might have to completely restart the emulator in one device it worked by just restarting the app, on another the whole emulator had to be restarted)
 ![Screenshot 2025-05-10 002654](https://github.com/user-attachments/assets/39396080-a4bc-4fd8-9649-833f1e0652b2)
 
