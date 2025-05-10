@@ -23,8 +23,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.myapplication.AuthState
-import com.example.myapplication.AuthViewModel
+import com.example.myapplication.HelperViews.AuthState
+import com.example.myapplication.HelperViews.AuthViewModel
 
 
 @Composable
@@ -36,13 +36,29 @@ fun SignupPage(modifier: Modifier = Modifier, navController: NavController, auth
     val authState = authViewModel.authState.observeAsState()
     val context = LocalContext.current
 
+    val hasNavigated = remember { mutableStateOf(false) }
+
     LaunchedEffect(authState.value) {
-        when(authState.value){
-            is AuthState.Authentcated -> navController.navigate("home")
-            is AuthState.Error -> Toast.makeText(context,
-                (authState.value as AuthState.Error).message, Toast.LENGTH_SHORT).show()
-            else -> Unit
+        if (!hasNavigated.value) {
+            when (authState.value) {
+                is AuthState.Authenticated -> {
+                    hasNavigated.value = true
+                    navController.navigate("calendar") {
+                        popUpTo("signup") { inclusive = true }
+                        launchSingleTop = true
+                    }
+                }
+                is AuthState.Error -> {
+                    Toast.makeText(
+                        context,
+                        (authState.value as AuthState.Error).message,
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+                else -> Unit
+            }
         }
+
     }
 
     Column(
