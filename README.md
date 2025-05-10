@@ -18,8 +18,9 @@ In your Google Console please enable these apis:
 ---
 
 ## Google Maps API Key Setup (Android View)
-
+IMPORTANT: please kee the "\"....\"" so an example is "\"AXHDSOESsf323432|""
 In the backend, put the **Google Maps API Key** in the following files (where it says `MAPS_KEY_HERE` or `API_KEY_HERE`):
+
 
 ### 1. `Gradle Scripts -> local.properties (SDK Location)`
       MAPS_KEY=MAPS_KEY_HERE
@@ -33,7 +34,6 @@ In the backend, put the **Google Maps API Key** in the following files (where it
           }
       }
       
-### IMPORTANT: please kee the "\"....\"" so an example is "\"AXHDSOESsf323432|""
  ### 3. app -> mainfest -> AndriodManifest.xml:
       <manifest ....>
         ...
