@@ -1,6 +1,5 @@
 # VaCraze
-Application where you smart plan your vacation
----
+
 ## The app is in FINAL_VERSION branch
 
 ---
